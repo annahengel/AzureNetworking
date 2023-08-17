@@ -26,13 +26,13 @@ Description:
         - VM: AZ104-Firewall-VM - publicly accessibile over RDP over Firewall (DNAT rule)
         - VM: AZ104-Peering - accessible over Bastion
   - Firewall policy:
-        - application: allow www.google.com and www.bing.com over HTTP/s to 10.0.1.4 (AZ104-Peering)
-        - network: allowed custom DNS
-        - dnat: allowed RDP to the Az104-Firewall through the Firewall
-    Public DNS Zone resolving az104.com (with a child zone: student.104.com) - domain not purchased
-    Private DNS Zone resolving az104.net - Spoke1Vnet connected for autoregistration adn HubVnet for resolution
-    Peering enabled between HubVNet and Spoke1Vnet with "allow gateway transit"
-    Route table: traffic towards the internet routed through the IIP of the firewall for the subnets hosting VMs in HubVnet and Spoke1Vnet
+  -     application: allow www.google.com and www.bing.com over HTTP/s to 10.0.1.4 (AZ104-Peering)
+  -     network: allowed custom DNS
+  -     dnat: allowed RDP to the Az104-Firewall through the Firewall
+  - Public DNS Zone resolving az104.com (with a child zone: student.104.com) - domain not purchased
+  - Private DNS Zone resolving az104.net - Spoke1Vnet connected for autoregistration adn HubVnet for resolution
+  - Peering enabled between HubVNet and Spoke1Vnet with "allow gateway transit"
+  - Route table: traffic towards the internet routed through the IIP of the firewall for the subnets hosting VMs in HubVnet and Spoke1Vnet
 
 
 
