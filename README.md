@@ -3,7 +3,7 @@
 This repo consists of a resource group template deploying an environment to demo Azure Networking capabilities:
 
 Resource Topology:
-![AZ104-Networking](https://github.com/annahengel/AzureNetworking/assets/73529093/c72390c0-cfdf-44b5-a2ce-fbb35e442e9e)
+![AZ104-Networking2](https://github.com/annahengel/AzureNetworking/assets/73529093/38fc8acf-36cb-4115-8619-ac0a719cadc3)
 
 Description:
 - 3 networks:
