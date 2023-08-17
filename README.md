@@ -22,10 +22,10 @@ Relationships/network topology:
 ![image](https://github.com/annahengel/AzureNetworking/assets/73529093/d8ebf471-ba35-4eb3-9333-ef6435714645)
 
 Description:
-    A typical Hub-and-Spoke Topology with traffic to and from Spokes is routed through the Firewall (forced tunneling and/or UDR).
+- A typical Hub-and-Spoke Topology with traffic to and from Spokes is routed through the Firewall (forced tunneling and/or UDR).
         - VM: AZ104-Firewall-VM - publicly accessibile over RDP over Firewall (DNAT rule)
         - VM: AZ104-Peering - accessible over Bastion
-    Firewall policy:
+  - Firewall policy:
         - application: allow www.google.com and www.bing.com over HTTP/s to 10.0.1.4 (AZ104-Peering)
         - network: allowed custom DNS
         - dnat: allowed RDP to the Az104-Firewall through the Firewall
