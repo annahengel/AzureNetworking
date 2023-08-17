@@ -35,3 +35,7 @@ Peering enabled between HubVNet and Spoke1Vnet with "allow gateway transit"
 Route table:
 traffic towards the internet routed through the IIP of the firewall for the subnets hosting VMs in HubVnet and Spoke1Vnet
 
+
+
+
+
